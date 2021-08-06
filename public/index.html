@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2T TP 36 node.js</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+        <div class="container pt-3">
+            <div class="display-3 font-italic">
+                Graficar figura 
+            </div>
+            <h1 class="pb-3 text-info">Ingreso de datos</h1>
+            <div class="row justify-content-center pt-4">
+                <div class="col-md-10">
+                    <form action="recuperardatos" method="POST">
+                        <div class="row justify-content-center">
+                            
+                            <div class="col-sm-4">
+                                <div class="form-group text-center">
+                                    <label for="n1">Número de filas</label>
+                                    <input type="number" name="num" min="1" max="17" id="n1" placeholder="Un número">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="m-0 row justify-content-center">
+                            <div class="col-sm-4 text-center pt-4">
+                                <div class="form-group">
+                                    <button class="btn btn-info btn-block" type="submit">
+                                        Enviar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+</body>
+</html>

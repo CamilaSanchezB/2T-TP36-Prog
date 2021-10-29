@@ -1,5 +1,5 @@
-# 2T-TP36-Prog
-https://tp-asteriscos.herokuapp.com/
+# https://tp-asteriscos.herokuapp.com/
+
 
 Hacer un formulario HTML que solicite ingresar 1 (un número) que representará el número de líneas que debe tener la figura.
 
